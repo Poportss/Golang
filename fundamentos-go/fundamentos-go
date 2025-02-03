@@ -1,0 +1,25 @@
+go é um linguagem estáticamente tipada -> um tipo que não pode ser mutavél
+
+Inferência de Tipos, go sabe qual o tipo dela automaticamente
+
+blocos -> unidades que representam uma funcao
+
+escoppo, acessibilidade de objetos, variaveis e funções em diferetentes partes do código -> tira da função e deixa global
+
+array -> sequencia numerada, tem um tipo único, e tamanho fixo
+
+slices -> e uma parte de um array, ela tem um tamanho variavel
+
+mapas -> busca um valor de acordo com a palavra associada
+
+abstrações -> esconder os detalhes de algo
+
+
+Obejtos e Classes, não tem em go é um estrutura, ou uma scruct
+
+Sistema de tipos ->  variaveis e funções de varios tipos
+
+interfaces -> define um comportamento de um tipo
+
+exeções -> não possui
+

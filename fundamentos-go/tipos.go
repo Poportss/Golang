@@ -32,8 +32,30 @@ func main() {
 	a := Article{Title: "Hello World", Author: "John Doe"}
 	fmt.Println(a)
 
-	expressiom := (true && false) || (false && true) || !(false && false)
-	fmt.Println(expressiom)
+	//mapas
+	//maps := make(map[string]int)
+	//
+	//maps["chave"] = 10
+	//fmt.Println(maps["chave"])
+
+	//mapas
+	//maps := make(map[int]int)
+	//
+	//maps[1] = 20
+	//fmt.Println(maps[1])
+
+	elemento := make(map[string]string)
+
+	elemento["H"] = "Hidrogênio"
+	elemento["He"] = "Hélio"
+	elemento["Li"] = "L;itio"
+	fmt.Println(elemento)
+
+	slice := make([]int, 3, 9)
+	fmt.Println(len(slice), cap(slice))
+
+	arrays := [6]string{"a", "b", "c", "d", "e", "f"}
+	fmt.Println(arrays[2:5])
 
 }
 

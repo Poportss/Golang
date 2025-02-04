@@ -13,7 +13,7 @@ func pingar(c chan string) {
 	}
 }
 
-func pingor(c chan string) {
+func pongar(c chan string) {
 	for i := 0; ; i++ {
 		c <- "pong" //usado para enviar e recber mensagem pelo canal
 	}
@@ -30,7 +30,7 @@ func imprimir(c chan string) {
 func main() {
 	c := make(chan string)
 	go pingar(c)
-	go pingor(c)
+	go pongar(c)
 	go imprimir(c)
 
 	var entrada string
